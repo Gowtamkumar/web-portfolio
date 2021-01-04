@@ -1,0 +1,67 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+    margin:0px;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    color:dimgray;
+}
+.orange-heightlight{
+    color: orange;
+}
+.haif-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.haif-width img{
+    width:90%;
+}
+.personal-portfolio-top-section{
+    background-image: url("/images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    padding:10px 20px;
+    color:white;
+    font-weight: 700;
+}
+.dream-area{
+    background-image: url("/images/dream-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.experiences-area{
+    background-image: url("/images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.single-expreience{
+    box-shadow: 10px 10px 40px gray;
+    height: 65%;
+    background-color: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#junier-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
